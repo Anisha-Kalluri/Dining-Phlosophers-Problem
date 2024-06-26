@@ -8,20 +8,21 @@ AltDiningPhilosopher.java This solution uses a synchronized block to control acc
 
 Key Features:
 
-Each philosopher has a unique ID.
-Synchronization ensures that only one philosopher can pick up the forks at a time.
-Philosophers alternate between thinking and eating.
-The program ensures that all philosophers get a chance to eat without any deadlock.
-DiningPhilosopher.java This solution uses java.util.concurrent.locks.Lock for each fork and ensures that each philosopher picks up the left fork first, then the right fork. This approach prevents deadlock by ensuring that no two adjacent philosophers can pick up forks at the same time.
+1. Each philosopher has a unique ID.
+2. Synchronization ensures that only one philosopher can pick up the forks at a time.
+3. Philosophers alternate between thinking and eating.
+4. The program ensures that all philosophers get a chance to eat without any deadlock.
+5. DiningPhilosopher.java This solution uses java.util.concurrent.locks.Lock for each fork and ensures that each philosopher picks up the left fork first, then the right fork. This approach prevents deadlock by ensuring that no two adjacent philosophers can pick up forks at the same time.
 
 Key Features:
 
-Uses ReentrantLock for each fork.
-Philosophers pick up the left fork first, then the right fork.
-Implements a mechanism to stop philosophers after a certain time.
-Ensures that all philosophers can eat and think without getting starved.
+1. Uses ReentrantLock for each fork.
+2. Philosophers pick up the left fork first, then the right fork.
+3. Implements a mechanism to stop philosophers after a certain time.
+4. Ensures that all philosophers can eat and think without getting starved.
+
 How to Run
 
-Clone this repository to your local machine.
-Navigate to the directory where you have saved the files.
-Compile the Java files using:
+1. Clone this repository to your local machine.
+2. Navigate to the directory where you have saved the files.
+3. Compile the Java files using any compiler or IDE.
